@@ -1,0 +1,22 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Compiling Gui.vbproj.GenerateResource.Cache
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Compiling Gui.vbproj.GenerateResource.Cache
+bin\Release\ne_q1spCompilingGui.exe
+bin\Release\ne_q1spCompilingGui.pdb
+bin\Release\ne_q1spCompilingGui.xml
+obj\Release\ne_q1spCompilingGui.mainWindow.resources
+obj\Release\ne_q1spCompilingGui.Resources.resources
+obj\Release\ne_q1spCompilingGui.prefs.resources
+obj\Release\ne_q1spCompilingGui.exe
+obj\Release\ne_q1spCompilingGui.xml
+obj\Release\ne_q1spCompilingGui.pdb
+bin\Debug\ne_q1spCompilingGui.exe
+bin\Debug\ne_q1spCompilingGui.pdb
+bin\Debug\ne_q1spCompilingGui.xml
+obj\Debug\ne_q1spCompilingGui.mainWindow.resources
+obj\Debug\ne_q1spCompilingGui.Resources.resources
+obj\Debug\ne_q1spCompilingGui.prefs.resources
+obj\Debug\ne_q1spCompilingGui.exe
+obj\Debug\ne_q1spCompilingGui.xml
+obj\Debug\ne_q1spCompilingGui.pdb

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Compiling Gui">
+</Property><Property Name="Solution File" Value="C:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui.sln">
+</Property><Property Name="Date" Value="July-31-10">
+</Property><Property Name="Time" Value="21:29 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Compiling Gui" Source="Compiling Gui\Compiling Gui.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Compiling Gui" Source="Compiling Gui\Compiling Gui.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Compiling Gui.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Compiling Gui.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Compiling Gui" Source="Compiling Gui\Compiling Gui.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
