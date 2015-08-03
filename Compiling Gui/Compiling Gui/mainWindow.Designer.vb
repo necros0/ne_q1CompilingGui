@@ -28,6 +28,7 @@ Partial Class mainWindow
         Me.mainWindowMenuStrip = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.CompileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PointfileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RunQuakeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -37,6 +38,7 @@ Partial Class mainWindow
         Me.qbspGroupBox = New System.Windows.Forms.GroupBox()
         Me.compileOptionsAdd_menuStrip = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.add_addMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.useSkip = New System.Windows.Forms.CheckBox()
         Me.useQbsp = New System.Windows.Forms.CheckBox()
         Me.qbsp_commandLineTextbox = New System.Windows.Forms.TextBox()
         Me.pauseAfterQbsp = New System.Windows.Forms.CheckBox()
@@ -62,8 +64,6 @@ Partial Class mainWindow
         Me.browseEnginesButton = New System.Windows.Forms.Button()
         Me.engineTextbox = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PointfileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.useSkip = New System.Windows.Forms.CheckBox()
         Me.mainWindowMenuStrip.SuspendLayout()
         Me.qbspGroupBox.SuspendLayout()
         Me.compileOptionsAdd_menuStrip.SuspendLayout()
@@ -123,6 +123,13 @@ Partial Class mainWindow
         Me.CompileToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
         Me.CompileToolStripMenuItem.Text = "Compile"
         '
+        'PointfileToolStripMenuItem
+        '
+        Me.PointfileToolStripMenuItem.Name = "PointfileToolStripMenuItem"
+        Me.PointfileToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.P), System.Windows.Forms.Keys)
+        Me.PointfileToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
+        Me.PointfileToolStripMenuItem.Text = "Pointfile"
+        '
         'RunQuakeToolStripMenuItem
         '
         Me.RunQuakeToolStripMenuItem.Name = "RunQuakeToolStripMenuItem"
@@ -147,7 +154,7 @@ Partial Class mainWindow
         'FolderSetupToolStripMenuItem
         '
         Me.FolderSetupToolStripMenuItem.Name = "FolderSetupToolStripMenuItem"
-        Me.FolderSetupToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FolderSetupToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.FolderSetupToolStripMenuItem.Text = "Folder Setup"
         '
         'HelpToolStripMenuItem
@@ -161,7 +168,7 @@ Partial Class mainWindow
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'qbspGroupBox
@@ -189,6 +196,18 @@ Partial Class mainWindow
         Me.add_addMenuItem.Name = "add_addMenuItem"
         Me.add_addMenuItem.Size = New System.Drawing.Size(96, 22)
         Me.add_addMenuItem.Text = "Add"
+        '
+        'useSkip
+        '
+        Me.useSkip.AutoSize = True
+        Me.useSkip.BackColor = System.Drawing.SystemColors.Control
+        Me.useSkip.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.useSkip.Location = New System.Drawing.Point(76, -1)
+        Me.useSkip.Name = "useSkip"
+        Me.useSkip.Size = New System.Drawing.Size(50, 17)
+        Me.useSkip.TabIndex = 3
+        Me.useSkip.Text = "SKIP"
+        Me.useSkip.UseVisualStyleBackColor = False
         '
         'useQbsp
         '
@@ -438,25 +457,6 @@ Partial Class mainWindow
         Me.Label1.Size = New System.Drawing.Size(126, 13)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Command-line Arguments"
-        '
-        'PointfileToolStripMenuItem
-        '
-        Me.PointfileToolStripMenuItem.Name = "PointfileToolStripMenuItem"
-        Me.PointfileToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.P), System.Windows.Forms.Keys)
-        Me.PointfileToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
-        Me.PointfileToolStripMenuItem.Text = "Pointfile"
-        '
-        'useSkip
-        '
-        Me.useSkip.AutoSize = True
-        Me.useSkip.BackColor = System.Drawing.SystemColors.Control
-        Me.useSkip.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.useSkip.Location = New System.Drawing.Point(76, -1)
-        Me.useSkip.Name = "useSkip"
-        Me.useSkip.Size = New System.Drawing.Size(50, 17)
-        Me.useSkip.TabIndex = 3
-        Me.useSkip.Text = "SKIP"
-        Me.useSkip.UseVisualStyleBackColor = False
         '
         'mainWindow
         '

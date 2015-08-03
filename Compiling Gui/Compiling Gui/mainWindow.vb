@@ -420,7 +420,7 @@ Public Class mainWindow
         If useQbsp.Checked = True Then
             '=================================================================
             objWriter.WriteLine("echo --------------QBSP--------------")
-            buffer = toolsFolder + "\" + qbspFilename
+            buffer = "START /B /I /WAIT /BELOWNORMAL " + toolsFolder + "\" + qbspFilename
             If qbspArgs <> "" Then
                 buffer = buffer + " " + qbspArgs
             End If
@@ -454,7 +454,7 @@ Public Class mainWindow
         If useVis.Checked = True Then
             '=================================================================
             objWriter.WriteLine("echo --------------VIS---------------")
-            buffer = toolsFolder + "\" + visFilename
+            buffer = "START /B /I /WAIT /BELOWNORMAL " + toolsFolder + "\" + visFilename
             If visArgs <> "" Then
                 buffer = buffer + " " + visArgs
             End If
@@ -479,7 +479,7 @@ Public Class mainWindow
         If useLight.Checked = True Then
             '=================================================================
             objWriter.WriteLine("echo -------------LIGHT--------------")
-            buffer = toolsFolder + "\" + lightFilename
+            buffer = "START /B /I /WAIT /BELOWNORMAL " + toolsFolder + "\" + lightFilename
             If lightArgs <> "" Then
                 buffer = buffer + " " + lightArgs
             End If
@@ -609,7 +609,7 @@ Public Class mainWindow
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        MsgBox("ne_q1spCompilingGui v1.0.3, C. Jones ('necros')", MsgBoxStyle.Information, "About")
+        MsgBox("ne_q1spCompilingGui v1.0.5, C. Jones ('necros')", MsgBoxStyle.Information, "About")
     End Sub
 
     Private Sub PointfileToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PointfileToolStripMenuItem.Click
@@ -666,4 +666,6 @@ Public Class mainWindow
 
 
     End Sub
+
+
 End Class

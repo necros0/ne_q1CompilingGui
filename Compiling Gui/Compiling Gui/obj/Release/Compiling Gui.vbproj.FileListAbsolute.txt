@@ -16,9 +16,7 @@ D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compilin
 D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\bin\Release\ne_q1spCompilingGui.exe
 D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\bin\Release\ne_q1spCompilingGui.pdb
 D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\bin\Release\ne_q1spCompilingGui.xml
-D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\obj\Release\ResolveAssemblyReference.cache
 D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\obj\Release\ne_q1spCompilingGui.mainWindow.resources
 D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\obj\Release\ne_q1spCompilingGui.Resources.resources
 D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\obj\Release\ne_q1spCompilingGui.prefs.resources
-D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\obj\Release\GenerateResource.read.1.tlog
-D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\obj\Release\GenerateResource.write.1.tlog
+D:\Users\cjones\Documents\Visual Studio 2010\Projects\ne_q1CompilingGui\Compiling Gui\Compiling Gui\obj\Release\Compiling Gui.vbproj.GenerateResource.Cache
