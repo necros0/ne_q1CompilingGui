@@ -501,9 +501,9 @@ Public Class mainWindow
             objWriter.WriteLine()
         End If
 
-        objWriter.WriteLine("copy " + tempMapFile + ".bsp " + outputFolder)
-        objWriter.WriteLine("copy " + tempMapFile + ".pts " + outputFolder) 'pts files into output folder for engine pointfile builtin
-        objWriter.WriteLine("copy " + tempMapFile + ".lit " + outputFolder) 'lit files for coloured lighting
+        objWriter.WriteLine("copy " + tempMapFile + ".bsp " + """" + outputFolder + """")
+        objWriter.WriteLine("copy " + tempMapFile + ".pts " + """" + outputFolder + """") 'pts files into output folder for engine pointfile builtin
+        objWriter.WriteLine("copy " + tempMapFile + ".lit " + """" + outputFolder + """") 'lit files for coloured lighting
 
         If pauseAfterCompiling.Checked = True Then
             objWriter.WriteLine("pause")
